@@ -3,3 +3,4 @@ from profiles_api import models
 
 # Register your models here.
 admin.site.register(models.UserProfile) #make accessible from admin interface
+admin.site.register(models.ProfileFeedItem)
